@@ -286,42 +286,288 @@ color: #FFFFFF;
 width:90%;
 }
 .watch{
-    border: none;
-    outline: none;
-    background: #161A2B;
-    font-family: 'PT Root UI Web';
+border: none;
+outline: none;
+background: #161A2B;
+font-family: 'PT Root UI Web';
 font-weight: 400;
 font-size: 14px;
 color: #FFFFFF;
 
 }
 .watch-2{
-    border: none;
-    outline: none;
-    background: #161A2B;
-    font-family: 'PT Root UI Web';
+border: none;
+outline: none;
+background: #161A2B;
+font-family: 'PT Root UI Web';
 font-weight: 400;
 font-size: 14px;
 color: #FFFFFF;
 margin-bottom: 80px;
-
 }
 /* ============================================================= */
+.supra{
+margin-bottom: 50px;
+}
+.mango{
+background: #F0F0F0;
+}
+/* ============================================================= */
+.general{
+display: flex;
+align-items: center;
+/* height: 489px; */
+}
+.general-2{
+margin-left: 30px;
+}
+.anatoliy{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 24px;
+color: #000000;
+}
+.kompani{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+}
+.konstantin{
+width: 800px;
+background-color: #FFFFFF;
+margin: auto;
+}
+.klient{
+padding-top: 20px;
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+width: 80%;
+margin: auto;
+}
+.rotex-2{
+text-align: end;
+}
+.page{
+margin-left: 250px;
+width: 212px;
+height: 8px;
+margin-top: 100px;
+}
+.batwing{
+margin-bottom: 100px;
+}
+/* ============================================================= */
+.tekin{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 24px;
+color: #000000;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+/* ============================================================= */
+.berserk{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-bottom: 40px;
+}
+.zakaz{
+margin-top: -50px;
+    padding: 10px 40px;
+    font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 18px;
+color: #000000;
+background: #FFFFFF;
+}
+/* ============================================================= */
+.cat{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.dog{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/* ============================================================= */
+footer{
+    background: #161A2B;
+}
 
 /* ============================================================= */
-
-/* ============================================================= */
-
-/* ============================================================= */
-
-/* ============================================================= */
-
-/* ============================================================= */
-
-/* ============================================================= */
-
-/* ============================================================= */
-
+.logoF{
+    margin-top: 40px;
+    margin-bottom: 30px; 
+}
+.teleS{
+    font-weight: 700;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.teleA{
+    font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 18px;
+text-decoration: none;
+color: dimgrey ;
+}
+.mount{
+    width: 80%;
+}
+/* ================Responsive============================================= */
+@media (max-width: 575px) {
+    .mount{
+        margin: 20px;
+    }
+    .logoPhoto{
+        margin-top: 10px;
+    }
+    .biznes {
+        margin-top: 50px;
+        font-family: 'PT Root UI Web';
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    .sila {
+        font-family: 'PT Root UI Web';
+        font-weight: 400;
+        font-size: 21px;
+        color: #000000;
+        /* width: 90%; */
+        margin-top: 32px;
+        text-align: center;
+    } 
+    .read {
+        text-align: center;
+        margin-top: 40px;  
+    }
+    .podrobno{
+        margin-top: 20px;
+    }
+    .kitob{
+        width: 80%;
+        height: 80%;
+        margin-left: 40px;
+    }
+    .bino {
+     width: 100%;
+     height: 100%;
+     position:  none;
+     right: 0px;
+    }
+    .deloCard-2 {
+        padding-top: 50px;
+        margin-left: 20px;
+        padding-bottom: 100px;
+    }
+    .hush {
+        font-family: 'PT Root UI Web';
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+    .media {
+        font-family: 'PT Root UI Web';
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    .eto {
+        font-family: 'PT Root UI Web';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        /* line-height: 150%; */
+        color: #000000;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .five {
+    width: 262px;
+    /* height: 8px; */
+}
+.night {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'PT Root UI Web';
+    font-weight: 500;
+    font-size: 27px;
+    color: #FFFFFF;
+}
+.wayGO {
+    background: #161A2B;
+    margin-bottom: 10px;
+    position: relative;
+    right: 0;
+}
+.supra {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.bass {
+    border-left: 2px solid red;
+    margin-bottom: 50px;
+}
+.russkiy{
+    width: 10%;
+}
+.anatoliy{
+    font-size: 13px;
+}
+.general-2 {
+    margin-left: 0px;
+}
+.kompani {
+    font-family: 'PT Root UI Web';
+    font-weight: 400;
+    font-size: 8px;
+    color: #000000;
+}
+.klient {
+    padding-top: 20px;
+    font-family: 'PT Root UI Web';
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 150%; */
+    color: #000000;
+    width: 106%;
+    /* margin: auto; */
+}
+.konstantin{
+    width: 100%;
+}
+.accent{
+    width: 30%;
+}
+.page {
+    margin-left: 0;
+    width: 41%;
+    height: 8px;
+    margin-top: 0;
+}
+.tekin {
+    font-family: 'PT Root UI Web';
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.logoF {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 23%;
+}
+}
 /* ============================================================= */
 /* ============================================================= */
 

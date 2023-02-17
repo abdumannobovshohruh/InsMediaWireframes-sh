@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Ins Media wireframes sh</title>
 </head>
@@ -18,7 +21,7 @@
 <body>
     <header>
         <nav>
-            <div class="container">
+            <div class="container d-none d-sm-block">
                 <div style="margin-top: 10px;" class="row justify-content-between">
                     <div class="col-3">
                         <img src="img/Ins__media__logo 1.svg" alt="" class="logoPhoto">
@@ -44,13 +47,36 @@
 
                 </div>
             </div>
+            <div class="container d-block d-sm-none">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="img/Ins__media__logo 1.svg" alt="" class="logoPhoto">
+                    </div>
+                    <div class="col-6">
+                        <select class="mount">
+                            <option class="articl">
+                                <p class="number"><a href="#!" class="number_a">Контакты</a></p>
+                            </option >
+                            <option class="articl">
+                                <p class="number"><a href="#!" class="number_a">Info@ins-media.ru</a></p>
+                            </option >
+                            <option class="articl">
+                                <p class="number"><a href="#!" class="number_a">@power.island</a></p>
+                            </option >
+                            <option class="articl">
+                                <p class="number"><a href="#!" class="number_a">8 922 209 56 11</a></p>
+                            </option >
+                        </select>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="section-1">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6"> <!-- col-12 col-sm-6 -->   <!-- jadval hosil qilsih select ichiga option -->
                         <h1 class="biznes">Ведёте бизнес в области энергетики?
                             Мы поможем сэкономить время,
                             деньги и ресурсы!</h1>
@@ -61,14 +87,14 @@
                             <button class="podrobno">Подробнее</button>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-12 col-sm-5">
                         <img src="img/Key__visual.png" alt="" class="kitob">
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="deloCard">
                             <div class="deloCard-2">
                                 <p class="hush">О нас</p>
@@ -84,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <img src="img/Right__part.png" alt="" class="bino">
                     </div>
                 </div>
@@ -92,13 +118,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="eto">«Силовой остров» это</div>
+                        <p class="eto">«Силовой остров» это</p>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-5">
+                    <div class="col-12 col-sm-5">
                         <div class="gpsCard">
                             <div class="gpsCard-2">
                                 <img src="img/Card1__icon.png" alt="" class="gpsPhoto">
@@ -109,7 +135,7 @@
                             <div class="elf"><img src="img/Card1__accent.png" alt="" class="five"></div>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-12 col-sm-5">
                         <div class="gpsCard">
                             <div class="gpsCard-2">
                                 <img src="img/Card2__icon.png" alt="" class="gpsPhoto">
@@ -122,7 +148,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-5">
+                    <div class="col-12 col-sm-5">
                         <div class="gpsCard">
                             <div class="gpsCard-2">
                                 <img src="img/Card3__icon.png" alt="" class="gpsPhoto">
@@ -134,7 +160,7 @@
                             <div class="elf"><img src="img/Card1__accent.png" alt="" class="five"></div>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-12 col-sm-5">
                         <div class="gpsCard">
                             <div class="gpsCard-2">
                                 <img src="img/Card4__icon.png" alt="" class="gpsPhoto">
@@ -159,7 +185,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="potato">
                             <div class="free">
                                 <select class="dataO">
@@ -167,7 +193,7 @@
                                     <option>Анонсы по дате2</option>
                                     <option>Анонсы по дате3</option>
                                 </select>
-                                <p class="fevral">№4 3 - 9 февраля 2020</p>
+                                <p class="fevral d-none d-sm-block">№4 3 - 9 февраля 2020</p>
                             </div>
                             <div class="bigPotato">
                                 <p class="tochka">— ДПМ-2: точка в отборе проектов не поставлена.
@@ -190,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="wayGO">
                             <div class="wayGo-2">
                                 <p class="poluchat">Получите свежий номер бесплатно</p>
@@ -208,74 +234,274 @@
                     </div>
                 </div>
             </div>
-           <div class="orange">
+            <div class="orange">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="night">Как мы работаем?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-3">
+                            <div class="bass">
+                                <div class="bass-2">
+                                    <p class="fall">01 </p>
+                                    <p class="fall">Сбор данных</p>
+                                    <p class="algoritm">Алгоритмы собирают информацию</p>
+                                    <select class="watch">
+                                        <option>Скрыть</option>
+                                        <option>открыть</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <div class="bass">
+                                <div class="bass-2">
+                                    <p class="fall">02</p>
+                                    <p class="fall">Отбор материала</p>
+                                    <select class="watch-2">
+                                        <option>Скрыть</option>
+                                        <option>Подробнее</option>
+                                        <option>открыть</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <div class="bass">
+                                <div class="bass-2">
+                                    <p class="fall">03</p>
+                                    <p class="fall">Редактура и вёрстка</p>
+                                    <select class="watch-2">
+                                        <option>Скрыть</option>
+                                        <option>Подробнее</option>
+                                        <option>открыть</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <div class="bass">
+                                <div class="bass-2">
+                                    <p class="fall">04</p>
+                                    <p class="fall">Рассылка обзора</p>
+                                    <select class="watch-2">
+                                        <option>Скрыть</option>
+                                        <option>Подробнее</option>
+                                        <option>открыть</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p class="night">Как мы работаем?</p>
+                        <p class="eto">Нас читают</p>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-              <div class="col-3">
-                <div class="bass">
-               <div class="bass-2">
-                <p class="fall">01 </p>
-                <p class="fall">Сбор данных</p>
-                <p class="algoritm">Алгоритмы собирают информацию</p>
-                <select class="watch">
-                    <option>Скрыть</option>
-                    <option>открыть</option>
-                </select>
-               </div>
-                  </div>
-              </div>
-              <div class="col-3">
-                <div class="bass">
-               <div class="bass-2">
-                <p class="fall">02</p>
-                <p class="fall">Отбор материала</p>
-                <select class="watch-2">
-                    <option>Скрыть</option>
-                    <option>Подробнее</option>
-                    <option>открыть</option>
-                </select>
-               </div>
-                  </div>
-              </div>
-              <div class="col-3">
-                <div class="bass">
-               <div class="bass-2">
-                <p class="fall">03</p>
-                <p class="fall">Редактура и вёрстка</p>
-                <select class="watch-2">
-                    <option>Скрыть</option>
-                    <option>Подробнее</option>
-                    <option>открыть</option>
-                </select>
-               </div>
-                  </div>
-              </div>
-              <div class="col-3">
-                <div class="bass">
-               <div class="bass-2">
-                <p class="fall">04</p>
-                <p class="fall">Рассылка обзора</p>
-                <select class="watch-2">
-                    <option>Скрыть</option>
-                    <option>Подробнее</option>
-                    <option>открыть</option>
-                </select>
-               </div>
-                  </div>
-              </div>
-           
+                    <div class="col-12">
+                        <img src="img/Card__sistem.png" alt="" class="supra">
+                    </div>
                 </div>
             </div>
-           </div>
+            <div class="mango">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="eto">Отзывы наших подписчиков</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <!-- <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div> -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <div class="konstantin">
+                                            <div class="general">
+                                                <img src="img/image 16.png" alt="" class="russkiy">
+                                                <div class="general-2">
+                                                    <p class="anatoliy">Шурыгин Константин Анатольевич
+                                                    </p>
+                                                    <p class="kompani">Заместитель генерального директора по сбыту в
+                                                        компании «Ротек»
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="klient">«Взаимодействие корпорации и клиента, отбрасывая
+                                                подробности, поразительно. Емкость рынка, отбрасывая подробности,
+                                                развивает стратегический процесс стратегического планирования,
+                                                отвоевывая свою долю рынка. Социальный статус, конечно, деятельно
+                                                стабилизирует фирменный рейтинг. Торговая марка решительно оправдывает
+                                                повседневный медиамикс.»</p>
+                                            <div class="rotex-2">
+                                                <div class="rotex">
+                                                    <img src="img/Company__logo.png" alt="" class="accent">
+                                                </div>
+                                                <img src="img/Card1__accent.png" alt="" class="accent">
+                                            </div>
+                                        </div>
+                                        <div class="batwing">
+                                            <img src="img/Pagination.png" alt="" class="page">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <div class="konstantin">
+                                            <div class="general">
+                                                <img src="img/image 16.png" alt="" class="russkiy">
+                                                <div class="general-2">
+                                                    <p class="anatoliy">Шурыгин Константин Анатольевич
+                                                    </p>
+                                                    <p class="kompani">Заместитель генерального директора по сбыту в
+                                                        компании «Ротек»
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="klient">«Взаимодействие корпорации и клиента, отбрасывая
+                                                подробности, поразительно. Емкость рынка, отбрасывая подробности,
+                                                развивает стратегический процесс стратегического планирования,
+                                                отвоевывая свою долю рынка. Социальный статус, конечно, деятельно
+                                                стабилизирует фирменный рейтинг. Торговая марка решительно оправдывает
+                                                повседневный медиамикс.»</p>
+                                            <div class="rotex-2">
+                                                <div class="rotex">
+                                                    <img src="img/Company__logo.png" alt="" class="accent">
+                                                </div>
+                                                <img src="img/Card1__accent.png" alt="" class="accent">
+                                            </div>
+                                        </div>
+                                        <div class="batwing">
+                                            <img src="img/Pagination.png" alt="" class="page">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <div class="konstantin">
+                                            <div class="general">
+                                                <img src="img/image 16.png" alt="" class="russkiy">
+                                                <div class="general-2">
+                                                    <p class="anatoliy">Шурыгин Константин Анатольевич
+                                                    </p>
+                                                    <p class="kompani">Заместитель генерального директора по сбыту в
+                                                        компании «Ротек»
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="klient">«Взаимодействие корпорации и клиента, отбрасывая
+                                                подробности, поразительно. Емкость рынка, отбрасывая подробности,
+                                                развивает стратегический процесс стратегического планирования,
+                                                отвоевывая свою долю рынка. Социальный статус, конечно, деятельно
+                                                стабилизирует фирменный рейтинг. Торговая марка решительно оправдывает
+                                                повседневный медиамикс.»</p>
+                                            <div class="rotex-2">
+                                                <div class="rotex">
+                                                    <img src="img/Company__logo.png" alt="" class="accent">
+                                                </div>
+                                                <img src="img/Card1__accent.png" alt="" class="accent">
+                                            </div>
+                                        </div>
+                                        <div class="batwing">
+                                            <img src="img/Pagination.png" alt="" class="page">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="greyfruit">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="tekin">Ознакомьтесь с текущим номером бесплатно</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-sm-4">
+                            <form class="aurora">
+                                <input type="text" placeholder="Имя" class="berserk">
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <form class="aurora">
+                                <input type="email" placeholder="Электронная почта" class="berserk">
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <button class="zakaz">Заказать сейчас</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-5">
+                            <form class="cat">
+                                <input type="checkbox">
+                                <p class="dog">Даю согласие на обработку персональных данных</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <img src="img/LOGO.png" alt="" class="logoF">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <p class="tele"><a href="#!" class="teleA">Телефон <span class="teleS">8 922 209 56 11</span> </a>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <p class="tele"><a href="#!" class="teleA">Электронная почта <span
+                                class="teleS">Info@ins-media.ru</span> </a></p>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <p class="tele"><a href="#!" class="teleA">Facebook <span class="teleS">@power.island</span> </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
