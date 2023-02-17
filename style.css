@@ -1,0 +1,348 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.logoText{
+font-size: 36px;
+font-weight: 500;
+
+}
+.pochta{
+display: flex;
+align-items: start;
+}
+.xat{
+width: 32px;
+height: 32px;
+}
+.number{
+margin-top: 5px;
+margin-left: 10px;
+}
+.number_a{
+text-decoration: none;
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+}
+/* ============================================================= */
+.section-1{
+background: #F0F0F0;
+}
+.biznes{
+margin-top: 200px;
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 36px;
+color: #000000;
+}
+.sila{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+width: 90%;
+margin-top: 32px;
+}
+.chitat{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 18px;;
+color: #FFFFFF;
+background: #EE1B24;
+padding: 15px 30px;
+border: none;
+}
+.podrobno{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 18px;
+color: #161A2B;
+padding: 14px 50px;
+margin-left: 40px;
+}
+.read{
+margin-top: 40px;
+}
+.kitob{
+margin-top: 100px;
+width: 436px;
+height: 617px;
+margin-bottom: 100px;
+}
+/* ============================================================= */
+.hush{
+font-family: 'PT Root UI Web';
+font-weight: 500;
+font-size: 36px;
+color: #FFFFFF;
+}
+.deloCard{
+background: #161A2B;
+}
+.deloCard-2{
+padding-top: 85px;
+margin-left: 60px;
+padding-bottom: 100px;   
+}
+.media{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+.kompaniya{
+font-family: 'PT Root UI Web';
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+}
+.bino{
+position: relative;
+right: 24px;
+width: 720px;
+height: 582px;
+}
+/* ============================================================= */
+.eto{
+font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 150%;
+color: #000000;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+/* ============================================================= */
+.gpsCard-2{
+display: flex;
+align-items: center;
+}
+.novosti{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 24px;
+color: #000000;
+margin-left: 40px;
+}
+.pro{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 100px;
+}
+.gpsCard{
+background: #FFFFFF;
+margin-bottom: 50px;
+}
+.elf{
+text-align: end;
+}
+.five{
+width: 360px;
+height: 8px;
+}
+.gpsPhoto{
+width: 112px;
+height: 112px;
+}
+#one{
+margin-bottom: 65px;
+}
+/* ============================================================= */
+.night{
+margin-top: 80px;
+margin-bottom: 50px;
+font-family: 'PT Root UI Web';
+font-weight: 500;
+font-size: 36px;
+color: #FFFFFF;
+}
+/* ============================================================= */
+.section-2{
+background: url(img/Background__image.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+/* ============================================================= */
+.free{
+display: flex;
+justify-content: space-between;
+background-color: #FFFFFF;
+}
+.fevral{
+margin-top: 10px;
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+padding-right: 30px;
+}
+.dataO{
+border: none;
+outline: none;
+border-bottom:1px solid black;
+margin: 15px;
+}
+.potato{
+background: #F0F0F0;
+}
+.tochka{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+width: 80%;
+}
+.bigPotato{
+margin-left: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.poluchat{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+padding-bottom: 42px;
+padding-top: 90px;
+}
+.wayGO{
+background: #161A2B;
+margin-bottom: 150px;
+position: relative;
+right: 25px;
+}
+.wayGo-2{
+text-align: center;
+}
+.name{
+margin-top: 50px;
+width: 80%;  
+border: none;
+outline: none;
+border-bottom: 4px solid #672d2d;  
+}
+.second{
+padding-top: 50px;
+padding-bottom: 41px;
+display: flex;
+align-items:center;
+}
+.dannie{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-top: 15px;
+}
+.team{
+width: 150px;
+}
+.besplatno{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+padding: 20px 60px;
+background: #161A2B;
+border: 3px solid red;
+margin-bottom: 40px;
+}
+/* ============================================================= */
+.orange{
+background: #161A2B;
+}
+/* ============================================================= */
+.fall{
+font-family: 'PT Root UI Web';
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+.bass{
+border-left: 2px solid red;
+margin-bottom: 100px;
+}
+.bass-2{
+margin-left: 20px;
+}
+.algoritm{
+font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+width:90%;
+}
+.watch{
+    border: none;
+    outline: none;
+    background: #161A2B;
+    font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+
+}
+.watch-2{
+    border: none;
+    outline: none;
+    background: #161A2B;
+    font-family: 'PT Root UI Web';
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+margin-bottom: 80px;
+
+}
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
+
+/* ============================================================= */
