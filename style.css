@@ -59,6 +59,16 @@ background: #EE1B24;
 padding: 15px 30px;
 border: none;
 }
+.chitat:hover {
+    background: #FFFFFF;
+    color: #161A2B;
+    border: 1px solid #2D3D8A;
+}
+.podrobno:hover{
+    color: #FFFFFF;
+background: #EE1B24;
+border: 1px solid ;
+}
 .podrobno{
 font-family: 'PT Root UI Web';
 font-weight: 700;
