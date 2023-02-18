@@ -60,7 +60,7 @@ padding: 15px 30px;
 border: none;
 }
 .chitat:hover {
-    background: #FFFFFF;
+    background: #F0F0F0;
     color: #161A2B;
     border: 1px solid #2D3D8A;
 }
@@ -270,6 +270,11 @@ background: #161A2B;
 border: 3px solid red;
 margin-bottom: 40px;
 }
+.besplatno:hover{
+    background-color: crimson;
+    color: #FFFFFF;
+
+}
 /* ============================================================= */
 .orange{
 background: #161A2B;
@@ -395,6 +400,9 @@ font-weight: 700;
 font-size: 18px;
 color: #000000;
 background: #FFFFFF;
+}
+.zakaz:hover{
+    background-color: #2D3D8A;
 }
 /* ============================================================= */
 .cat{
